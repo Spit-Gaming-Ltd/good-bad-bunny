@@ -1,0 +1,288 @@
+{
+  "id": "good_bad_bunny",
+  "meta": {
+    "id": "good_ad_bunny",
+    "title": "The Good, the Bad and the Bunny",
+    "description": "",
+    "provider": "Slot Forge Engine",
+    "version": "1.0.0",
+    "author": "Spit Studio"
+  },
+  "layout": {
+    "reels": 5,
+    "rows": 3,
+    "payMode": "ways"
+  },
+  "betting": {
+    "minBet": 0.2,
+    "maxBet": 100,
+    "defaultBet": 1,
+    "levels": [
+      0.2,
+      0.5,
+      1,
+      2,
+      5,
+      10,
+      20,
+      50,
+      100
+    ]
+  },
+  "volatility": "medium",
+  "rtpTarget": 96.5,
+  "wincap": 5000,
+  "symbols": [
+    {
+      "id": "BUNNY",
+      "name": "Bunny",
+      "type": "regular",
+      "weight": 3,
+      "asset": "assets/symbols/bunny.png"
+    },
+    {
+      "id": "COYOTE",
+      "name": "Coyote",
+      "type": "regular",
+      "weight": 4,
+      "asset": "assets/symbols/coyote.png"
+    },
+    {
+      "id": "BADGE",
+      "name": "Badge",
+      "type": "regular",
+      "weight": 5,
+      "asset": "assets/symbols/badge.png"
+    },
+    {
+      "id": "REVOLVER",
+      "name": "Revolver",
+      "type": "regular",
+      "weight": 6,
+      "asset": "assets/symbols/revolver.png"
+    },
+    {
+      "id": "WILD",
+      "name": "Wild",
+      "type": "wild",
+      "weight": 2,
+      "asset": "assets/symbols/golden-egg.png"
+    },
+    {
+      "id": "SCATTER",
+      "name": "Scatter",
+      "type": "scatter",
+      "weight": 2,
+      "asset": "assets/symbols/scatter.png"
+    }
+  ],
+  "reels": {
+    "reel1": [
+      "REVOLVER",
+      "BADGE",
+      "COYOTE",
+      "REVOLVER",
+      "BADGE",
+      "BUNNY",
+      "REVOLVER",
+      "BADGE",
+      "COYOTE",
+      "REVOLVER",
+      "BADGE",
+      "BUNNY",
+      "REVOLVER",
+      "COYOTE",
+      "BADGE",
+      "REVOLVER",
+      "BADGE",
+      "COYOTE",
+      "BUNNY",
+      "REVOLVER",
+      "BADGE",
+      "COYOTE",
+      "SCATTER",
+      "BADGE",
+      "REVOLVER",
+      "BUNNY",
+      "BADGE",
+      "WILD",
+      "COYOTE",
+      "REVOLVER"
+    ],
+    "reel2": [
+      "BADGE",
+      "REVOLVER",
+      "BUNNY",
+      "BADGE",
+      "COYOTE",
+      "REVOLVER",
+      "BADGE",
+      "BUNNY",
+      "REVOLVER",
+      "BADGE",
+      "COYOTE",
+      "REVOLVER",
+      "BADGE",
+      "BUNNY",
+      "REVOLVER",
+      "BADGE",
+      "COYOTE",
+      "BUNNY",
+      "BADGE",
+      "REVOLVER",
+      "SCATTER",
+      "BUNNY",
+      "BADGE",
+      "WILD",
+      "COYOTE",
+      "REVOLVER",
+      "BADGE",
+      "BUNNY",
+      "REVOLVER",
+      "BADGE"
+    ],
+    "reel3": [
+      "COYOTE",
+      "BUNNY",
+      "BADGE",
+      "REVOLVER",
+      "COYOTE",
+      "BADGE",
+      "BUNNY",
+      "REVOLVER",
+      "COYOTE",
+      "BADGE",
+      "BUNNY",
+      "COYOTE",
+      "REVOLVER",
+      "BADGE",
+      "COYOTE",
+      "BUNNY",
+      "BADGE",
+      "COYOTE",
+      "REVOLVER",
+      "SCATTER",
+      "BUNNY",
+      "COYOTE",
+      "BADGE",
+      "REVOLVER",
+      "WILD",
+      "BADGE",
+      "COYOTE",
+      "BUNNY",
+      "REVOLVER",
+      "COYOTE"
+    ],
+    "reel4": [
+      "BUNNY",
+      "COYOTE",
+      "REVOLVER",
+      "BADGE",
+      "BUNNY",
+      "COYOTE",
+      "REVOLVER",
+      "BUNNY",
+      "BADGE",
+      "COYOTE",
+      "REVOLVER",
+      "BUNNY",
+      "BADGE",
+      "COYOTE",
+      "BUNNY",
+      "REVOLVER",
+      "BADGE",
+      "BUNNY",
+      "COYOTE",
+      "REVOLVER",
+      "SCATTER",
+      "BADGE",
+      "BUNNY",
+      "COYOTE",
+      "WILD",
+      "REVOLVER",
+      "BUNNY",
+      "BADGE",
+      "COYOTE",
+      "BUNNY"
+    ],
+    "reel5": [
+      "BADGE",
+      "BUNNY",
+      "COYOTE",
+      "REVOLVER",
+      "BADGE",
+      "COYOTE",
+      "BUNNY",
+      "BADGE",
+      "REVOLVER",
+      "COYOTE",
+      "BUNNY",
+      "BADGE",
+      "REVOLVER",
+      "BUNNY",
+      "BADGE",
+      "COYOTE",
+      "REVOLVER",
+      "BADGE",
+      "BUNNY",
+      "SCATTER",
+      "COYOTE",
+      "BADGE",
+      "REVOLVER",
+      "BUNNY",
+      "BADGE",
+      "WILD",
+      "COYOTE",
+      "BUNNY",
+      "REVOLVER",
+      "BADGE"
+    ]
+  },
+  "paylines": [],
+  "paytable": {
+    "REVOLVER": {
+      "3": 0.5,
+      "4": 3,
+      "5": 12
+    },
+    "BADGE": {
+      "3": 1,
+      "4": 5,
+      "5": 20
+    },
+    "COYOTE": {
+      "3": 2,
+      "4": 8,
+      "5": 30
+    },
+    "BUNNY": {
+      "3": 3,
+      "4": 15,
+      "5": 60
+    }
+  },
+  "features": {
+    "wild": {
+      "symbol": "WILD",
+      "substitutesFor": "all_regular"
+    },
+    "scatter": {
+      "symbol": "SCATTER",
+      "triggerCount": 3,
+      "payouts": {
+        "3": 2,
+        "4": 10,
+        "5": 50
+      }
+    },
+    "freeSpins": {
+      "spins": 15,
+      "multiplier": 3,
+      "retrigger": true
+    }
+  },
+  "jurisdiction": {
+    "mode": "standard",
+    "wordReplacements": {}
+  }
+}

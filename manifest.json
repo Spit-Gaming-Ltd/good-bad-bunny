@@ -1,0 +1,92 @@
+{
+  "background": "assets/background/background.jpeg",
+  "logo": "assets/ui/logo.png",
+  "frame": "",
+  "events": [],
+  "canvasLayers": [
+    {
+      "id": "layer_1",
+      "label": "Reel Frame",
+      "src": "assets/ui/reel_frame.png",
+      "type": "image",
+      "x": 0,
+      "y": 0,
+      "w": 0,
+      "h": 0,
+      "locked": false,
+      "zIndex": 1
+    },
+    {
+      "id": "layer_2",
+      "label": "Bunny Character",
+      "src": "assets/ui/bunny_char.png",
+      "type": "image",
+      "x": 0,
+      "y": 0,
+      "w": 0,
+      "h": 0,
+      "locked": false,
+      "zIndex": 2
+    },
+    {
+      "id": "layer_3",
+      "label": "Coyote Character",
+      "src": "assets/ui/coyote_char.png",
+      "type": "image",
+      "x": 0,
+      "y": 0,
+      "w": 0,
+      "h": 0,
+      "locked": false,
+      "zIndex": 3
+    },
+    {
+      "id": "layer_4",
+      "label": "Game Title",
+      "src": "assets/ui/game_title.png",
+      "type": "image",
+      "x": 0,
+      "y": 0,
+      "w": 0,
+      "h": 0,
+      "locked": false,
+      "zIndex": 4
+    }
+  ],
+  "reelArea": {
+    "left": 460,
+    "top": 240,
+    "right": 1460,
+    "bottom": 840
+  },
+  "symbols": {
+    "WILD": "assets/symbols/golden-egg.png",
+    "SCATTER": "assets/symbols/scatter.png",
+    "REVOLVER": "assets/symbols/revolver.png",
+    "BADGE": "assets/symbols/badge.png",
+    "COYOTE": "assets/symbols/coyote.png",
+    "BUNNY": "assets/symbols/bunny.png"
+  },
+  "bar": {
+    "height": 90,
+    "length": 65,
+    "color": "#000000",
+    "colorOpacity": 0.95,
+    "spinColor": "#a51d2d",
+    "spinSize": 75,
+    "valueSize": 28
+  },
+  "reelConfig": {
+    "spinType": "classic",
+    "spinDirection": "down",
+    "stopOrder": "left-to-right",
+    "stopCurve": "bounce",
+    "symbolScale": 0.88,
+    "spinSpeed": 1,
+    "minSpinDuration": 800,
+    "stopDelay": 150,
+    "blur": true
+  },
+  "audio": {},
+  "animations": {}
+}
